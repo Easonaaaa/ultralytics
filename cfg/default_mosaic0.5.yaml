@@ -132,4 +132,4 @@ nwd: False
 iou_ratio: 0.5
 reg_max: 16
 
-mosaic: 0.2
+mosaic: 0.5

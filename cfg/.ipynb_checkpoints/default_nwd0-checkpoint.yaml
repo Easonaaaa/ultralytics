@@ -134,6 +134,8 @@ tracker: botsort.yaml # (str) tracker type, choices=[botsort.yaml, bytetrack.yam
 # 新增参数
 nwd: True
 iou_ratio: 0
+reg_max: 16
+
 
 # 已有参数修改
 crop_fraction: 0.7 #裁剪之后，小目标会一定程度放大

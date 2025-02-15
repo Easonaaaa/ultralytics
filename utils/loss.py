@@ -244,7 +244,8 @@ class v8DetectionLoss:
         self.stride = m.stride  # model strides
         self.nc = m.nc  # number of classes
         self.no = m.nc + m.reg_max * 4
-        self.reg_max = m.reg_max
+        # self.reg_max = m.reg_max
+        self.reg_max = self.hyp.reg_max
         self.device = device
 
         self.use_dfl = m.reg_max > 1
